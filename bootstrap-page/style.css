@@ -25,6 +25,16 @@
   font-weight: 500;
 }
 
+#nav-custom-styles {
+  padding: 18px 156px 18px 156px;
+}
+.nav-icon {
+  color: white;
+  background-color: #006044;
+  border-radius: 50%;
+  padding: 12px;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .header-sec {
@@ -46,5 +56,8 @@
   }
   .header-text {
     font-size: 14px;
+  }
+  #nav-custom-styles {
+    padding: 0;
   }
 }
