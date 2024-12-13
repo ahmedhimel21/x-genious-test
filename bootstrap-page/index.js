@@ -136,20 +136,28 @@ function generateProductCards() {
                   <span>${product?.rating} ${product?.votes}</span>
                 </p>
                 <p>${product?.title}</p>
+               <div class="d-flex justify-content-between align-items-center">
                 <p>
-                  <span class="text-success">${product?.price}</span>
+                  <span class="text-success fw-bold">${product?.price}</span>
                   <span
-                    class="text-decoration-line-through"
-                    style="color: #667085"
+                    class="text-decoration-line-through fw-bold"
+                    style="color: #667085;"
                     >${product?.discountPrice}</span
                   >
                 </p>
+                <button type="button" class="btn btn-success" onclick="buyNow(${product.id})">Buy Now</button>
+               </div>
               </div>
             </div>
           </div>
       `;
     productGrid.innerHTML += cardHTML;
   });
+}
+
+// Function to handle Buy Now button click
+function buyNow(productId) {
+  alert(`Product added to cart!`);
 }
 
 // call generate products card fn
