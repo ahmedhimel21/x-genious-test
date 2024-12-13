@@ -17,6 +17,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- toastify CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
   </head>
   <body>
     <header>
@@ -53,20 +58,33 @@
         </div>
         <div>
           <img
-            src="../assect/person-3.png"
+            src="../assect/person-2.png"
             alt="person"
-            class="w-[943px] h-[350px] md:h-[712px]"
+            class="w-[943px] h-[350px] md:h-[80vh]"
           />
         </div>
       </section>
-      <!-- products section -->
+      <!-- Products Section -->
+      <section class="px-4 md:px-8 lg:px-16 my-10">
+        <div class="flex justify-between items-center">
+          <h2 class="text-3xl font-bold">Popular Products</h2>
+          <a href="#" class="text-main">View All</a>
+        </div>
+        <hr class="my-4 border-gray-300" />
+        <div
+          id="productGrid"
+          class="grid gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"
+        >
+          <!-- Product cards will be dynamically inserted here -->
+        </div>
+      </section>
     </main>
     <footer>
       <!-- footer will be there -->
     </footer>
     <!-- script - JS -->
-    <script>
-      // script will be there
-    </script>
+    <script src="index.js"></script>
+    <!-- toastify script link -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>
