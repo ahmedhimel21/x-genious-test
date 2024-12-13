@@ -1,5 +1,4 @@
-// dynamically create products card
-
+// products array
 const products = [
   {
     id: 1,
@@ -111,7 +110,8 @@ const products = [
   },
 ];
 
-function generateProductCards() {
+// dynamically create products card
+const generateProductCards = () => {
   const productGrid = document.getElementById("productGrid");
   console.log(productGrid);
   products.forEach((product) => {
@@ -153,12 +153,19 @@ function generateProductCards() {
       `;
     productGrid.innerHTML += cardHTML;
   });
-}
+};
 
 // Function to handle Buy Now button click
-function buyNow(productId) {
-  alert(`Product added to cart!`);
-}
+const buyNow = (productId) => {
+  Toastify({
+    text: "Product added to cart successfully!",
+    duration: 3000,
+    close: true,
+    gravity: "bottom",
+    position: "right",
+    backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+  }).showToast();
+};
 
 // call generate products card fn
 generateProductCards();
