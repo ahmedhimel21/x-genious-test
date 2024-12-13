@@ -145,8 +145,8 @@ const generateProductCards = () => {
                     >${product?.discountPrice}</span
                   >
                 </p>
-                <button type="button" class="btn btn-success" onclick="buyNow(${product.id})">Buy Now</button>
-               </div>
+                </div>
+                <button type="button" class="btn btn-outline-success mt-2 w-100" onclick="buyNow(${product.id})">Buy Now</button>
               </div>
             </div>
           </div>
