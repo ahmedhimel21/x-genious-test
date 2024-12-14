@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     title: "Pink Premium Long Ugly Sweater - Winter Comfort ",
-    img: "../assect/products/product-1.png",
+    img: "../assets/products/product-1.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -12,7 +12,7 @@ const products = [
   {
     id: 2,
     title: "Pink Premium Long Ugly Sweater - Winter Comfort",
-    img: "../assect/products/product-2.png",
+    img: "../assets/products/product-2.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -21,7 +21,7 @@ const products = [
   {
     id: 3,
     title: "Wireless-AC3100 Dual Band Gigabit Router RT-AC88U",
-    img: "../assect/products/product-3.png",
+    img: "../assets/products/product-3.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -30,7 +30,7 @@ const products = [
   {
     id: 4,
     title: "Sonybeat Noise-Canceling BGM Headphone",
-    img: "../assect/products/product-4.png",
+    img: "../assets/products/product-4.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -39,7 +39,7 @@ const products = [
   {
     id: 5,
     title: "SMUG. Premium T-shirt Fabric soft and comfortable",
-    img: "../assect/products/product-5.png",
+    img: "../assets/products/product-5.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -48,7 +48,7 @@ const products = [
   {
     id: 6,
     title: "Phillips Pro Blend 6 Powerful Blender & Meat Grinder",
-    img: "../assect/products/product-6.png",
+    img: "../assets/products/product-6.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -57,7 +57,7 @@ const products = [
   {
     id: 7,
     title: "Pink Premium Long Ugly Sweater - Winter Comfort ",
-    img: "../assect/products/product-7.png",
+    img: "../assets/products/product-7.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -66,7 +66,7 @@ const products = [
   {
     id: 8,
     title: "Sonybeat Noise-Canceling BGM Headphone",
-    img: "../assect/products/product-8.png",
+    img: "../assets/products/product-8.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -75,7 +75,7 @@ const products = [
   {
     id: 9,
     title: "SMUG. Premium T-shirt Fabric soft and comfortable",
-    img: "../assect/products/product-9.png",
+    img: "../assets/products/product-9.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -84,7 +84,7 @@ const products = [
   {
     id: 10,
     title: "AMD Ryzen 7 5700G 8 Core 16 Thread AM4 Processor",
-    img: "../assect/products/product-10.png",
+    img: "../assets/products/product-10.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -93,7 +93,7 @@ const products = [
   {
     id: 11,
     title: "SMUG. Premium T-shirt Fabric soft and comfortable",
-    img: "../assect/products/product-11.png",
+    img: "../assets/products/product-11.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
@@ -102,7 +102,7 @@ const products = [
   {
     id: 12,
     title: "SMUG. Premium T-shirt Fabric soft and comfortable",
-    img: "../assect/products/product-12.png",
+    img: "../assets/products/product-12.png",
     price: "$223.99",
     discountPrice: "$267.60",
     rating: 4.5,
