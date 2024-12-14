@@ -113,7 +113,6 @@ const products = [
 // dynamically create products card
 const generateProductCards = () => {
   const productGrid = document.getElementById("productGrid");
-  console.log(productGrid);
   products.forEach((product) => {
     const cardHTML = `
        <div class="col">
