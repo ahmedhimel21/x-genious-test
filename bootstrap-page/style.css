@@ -110,6 +110,7 @@
 #social-icon > a :hover {
   background-color: #00192b;
 }
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .header-sec {
